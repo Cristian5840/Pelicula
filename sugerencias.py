@@ -1,0 +1,29 @@
+print("=====================================\n")
+print("      sugerencias de pelìculas       \n")
+print("=====================================\n")
+usuario=input("Buen dìa, cùal es tu nombre? ")
+print("¿Què querès ver hoy, "+usuario+"?")
+nombre_pelicula="Rapidos y furiosos"
+genero_pelicula="Accion"
+anio_pelicula=2001
+rating_pelicula=6.8
+nombre_pelicula2="Troya"
+genero_pelicula2="Accion"
+anio_pelicula2=2004
+rating_pelicula2=7.3
+nombre_pelicula3="Terminator 2"
+genero_pelicula3="Accion"
+anio_pelicula3=1991
+rating_pelicula3=8.6
+nombre_pelicula4="¿Y dónde está el piloto?"   
+genero_pelicula4="Comedia"  
+anio_pelicula4=1980 
+rating_pelicula4=7.7 
+nombre_pelicula5="joker"
+genero_pelicula5="drama"
+anio_pelicula5=2019
+rating_pelicula5=8.3
+print("---- GÉNEROS-----")
+print("accion")
+print("comedia")
+genero_favorito=input("¿Qué género te gusta? ")
