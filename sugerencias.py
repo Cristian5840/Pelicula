@@ -20,10 +20,22 @@ genero_pelicula4="Comedia"
 anio_pelicula4=1980 
 rating_pelicula4=7.7 
 nombre_pelicula5="joker"
-genero_pelicula5="drama"
+genero_pelicula5="Comedia"
 anio_pelicula5=2019
 rating_pelicula5=8.3
 print("---- GÉNEROS-----")
 print("accion")
 print("comedia")
 genero_favorito=input("¿Qué género te gusta? ")
+print ("Buscando Péliculas del Género " +genero_favorito)
+if (genero_pelicula==genero_favorito):
+    print(nombre_pelicula)
+if (genero_pelicula2==genero_favorito):
+    print(nombre_pelicula2)
+if (genero_pelicula3==genero_favorito):
+    print(nombre_pelicula3)
+if (genero_pelicula4==genero_favorito):
+    print(nombre_pelicula4)
+if (genero_pelicula5==genero_favorito):
+    print(nombre_pelicula5)  
+    
