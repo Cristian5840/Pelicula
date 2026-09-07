@@ -23,6 +23,10 @@ nombre_pelicula5="joker"
 genero_pelicula5="Comedia"
 anio_pelicula5=2019
 rating_pelicula5=8.3
+nombre_pelicula6="¿que paso ayer?"
+genero_pelicula6="Comedia"
+anio_pelicula=2009
+rating_pelicula6=7.6
 print("---- GÉNEROS-----")
 print("accion")
 print("comedia")
@@ -37,5 +41,6 @@ if (genero_pelicula3==genero_favorito):
 if (genero_pelicula4==genero_favorito):
     print(nombre_pelicula4)
 if (genero_pelicula5==genero_favorito):
-    print(nombre_pelicula5)  
-    
+    print(nombre_pelicula5) 
+if (genero_pelicula6==genero_favorito):
+    print(nombre_pelicula6)        
